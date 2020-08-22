@@ -1,15 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
-import Button from '@material-ui/core/Button';
+import { Grid, Card, CardHeader, CardMedia, Typography, Link, Button, Box } from '@material-ui/core';
+import WebIcon from '@material-ui/icons/Web';
+import GitHubIcon from '@material-ui/icons/GitHub';
+
 
 const useStyles = makeStyles({
     card: {
@@ -26,11 +20,32 @@ const useStyles = makeStyles({
     description: {
         paddingLeft: 16,
         paddingRight: 5
+    },
+    center: {
+        textAlign: 'center'
+    },
+    icon: {
+        fontSize: '1.25rem',
+        marginBottom: 2,
+        marginRight: 3
     }
 })
 
-const ProjectCard = ({ image, title, technologies, description, github }) => {
+const ProjectCard = ({ image, title, technologies, description, github, website }) => {
     const classes = useStyles();
+    let elem;
+
+    if (website) {
+        elem =
+            <>
+                |
+                <Link href={website} underline='none'>
+                    <Button size='small' color='primary'>
+                        <WebIcon className={classes.icon} /> Visit
+                    </Button>
+                </Link>
+            </>
+    }
 
     return (
         <Grid item xs={12} lg={6}>
@@ -46,13 +61,14 @@ const ProjectCard = ({ image, title, technologies, description, github }) => {
                 <Typography variant='body2' className={classes.description}>
                     {description}
                 </Typography>
-                <CardActions>
+                <Box mt={2}>
                     <Link href={github} underline='none'>
                         <Button size='small' color='primary'>
-                            View on Github
-                            </Button>
+                            <GitHubIcon className={classes.icon} /> Github
+                        </Button>
                     </Link>
-                </CardActions>
+                    {elem}
+                </Box>
             </Card>
         </Grid>
     );

@@ -31,25 +31,29 @@ const Projects = () => {
                         title='Personal Website'
                         technologies='React, Material-UI'
                         description='This website is a project itself. I look to regularly update this website and improve it throughout my journey.'
-                        github='' />
+                        github='https://github.com/JamesCahyadi/Personal-Website'
+                        website='' />
                     <ProjectCard
                         image={UWZone}
                         title='UW Zone'
                         technologies='Flask, PostgreSQL'
                         description='A CRUD application which allows University of Waterloo Students to share experiences about their programs.'
-                        github='https://github.com/JamesCahyadi/UW-Zone' />
+                        github='https://github.com/JamesCahyadi/UW-Zone'
+                        website='https://uwzone.herokuapp.com/' />
                     <ProjectCard
                         image={Wordsearch}
                         title='Word Search'
                         technologies='Pygame'
                         description='A classic word search that dynamically generates a board with random words each time.'
-                        github='https://github.com/JamesCahyadi/Word-Search' />
+                        github='https://github.com/JamesCahyadi/Word-Search'
+                        website='' />
                     <ProjectCard
                         image={PopcornMovies}
                         title='Popcorn Movies'
                         technologies='Express, Javascript/HTML/CSS'
                         description='A site that uses several APIs to display information about a collection of movies and TV shows.'
-                        github='https://github.com/JamesCahyadi/Popcorn-Movies' />
+                        github='https://github.com/JamesCahyadi/Popcorn-Movies'
+                        website='https://the-popcorn-movies.herokuapp.com/' />
                     <ProjectCard
                         image={DodgeMaster}
                         title='Dodge Master'

@@ -1,27 +1,26 @@
 import React, { useState, useEffect } from 'react';
-import Timeline from '@material-ui/lab/Timeline';
-import TimelineItem from '@material-ui/lab/TimelineItem';
-import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
-import TimelineConnector from '@material-ui/lab/TimelineConnector';
-import TimelineContent from '@material-ui/lab/TimelineContent';
-import TimelineDot from '@material-ui/lab/TimelineDot';
-import List from '@material-ui/core/List';
-import Link from '@material-ui/core/Link';
-import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
+import Course from './Course';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/core/styles';
-import frontrush from '../assets/frontrush.png';
-import uwaterloo from '../assets/uwaterloo.png';
-import htn from '../assets/htn.png';
+import { List, Link, Typography, Paper } from '@material-ui/core';
+import {
+    Timeline,
+    TimelineItem,
+    TimelineSeparator,
+    TimelineConnector,
+    TimelineContent,
+    TimelineDot
+} from '@material-ui/lab';
 import LocalCafeIcon from '@material-ui/icons/LocalCafe';
-import starterhacks from '../assets/starterhacks.png';
 import DesktopWindowsIcon from '@material-ui/icons/DesktopWindows';
 import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
 import FunctionsIcon from '@material-ui/icons/Functions';
-import Course from './Course';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import starterhacks from '../assets/starterhacks.png';
+import frontrush from '../assets/frontrush.png';
+import uwaterloo from '../assets/uwaterloo.png';
+import htn from '../assets/htn.png';
 
 const leftTheme = createMuiTheme({
     overrides: {
@@ -92,7 +91,7 @@ const Experience = () => {
                     <TimelineSeparator>
                         <TimelineDot variant="outlined">
                             <Link href={courseSequence}>
-                                <img src={uwaterloo} className={classes.dot} />
+                                <img src={uwaterloo} className={classes.dot} alt='logo' />
                             </Link>
                         </TimelineDot>
                         <TimelineConnector />
@@ -101,20 +100,18 @@ const Experience = () => {
                         <Paper elevation={3} className={classes.paper} >
                             <Typography variant="h5" align='center'>
                                 2A Term
-                        </Typography>
+                            </Typography>
                             <Typography variant="caption">
                                 Sept - Dec 2020
-                        </Typography>
-                            <Typography variant="body2">
-                                <List>
-                                    <Course course='CS 246 Object-Oriented Software Development' icon={<DesktopWindowsIcon />} />
-                                    <Course course='CS 245 Logic and Computation' icon={<DesktopWindowsIcon />} />
-                                    <Course course='CS 241 Foundations of Sequential Programs' icon={<DesktopWindowsIcon />} />
-                                    <Course course='STAT 230 Probability' icon={<TrendingUpIcon />} />
-                                    <Course course='AFM 272 Corporate Finance 1' icon={<AccountBalanceIcon />} />
-                                    <Course course='ECON 101 Introduction to Microeconomics' icon={<MonetizationOnIcon />} />
-                                </List>
                             </Typography>
+                            <List>
+                                <Course course='CS 246 Object-Oriented Software Development' icon={<DesktopWindowsIcon />} />
+                                <Course course='CS 245 Logic and Computation' icon={<DesktopWindowsIcon />} />
+                                <Course course='CS 241 Foundations of Sequential Programs' icon={<DesktopWindowsIcon />} />
+                                <Course course='STAT 230 Probability' icon={<TrendingUpIcon />} />
+                                <Course course='AFM 272 Corporate Finance 1' icon={<AccountBalanceIcon />} />
+                                <Course course='ECON 101 Introduction to Microeconomics' icon={<MonetizationOnIcon />} />
+                            </List>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
@@ -123,7 +120,7 @@ const Experience = () => {
                     <TimelineSeparator>
                         <TimelineDot variant="outlined">
                             <Link href={starterHacks}>
-                                <img src={starterhacks} className={classes.dot} />
+                                <img src={starterhacks} className={classes.dot} alt='' />
                             </Link>
                         </TimelineDot>
                         <TimelineConnector />
@@ -132,10 +129,10 @@ const Experience = () => {
                         <Paper elevation={3} className={classes.paper} >
                             <Typography variant="h5">
                                 StarterHacks
-                                </Typography>
+                            </Typography>
                             <Typography variant="caption">
                                 Jan 2020
-                                </Typography>
+                            </Typography>
                             <Typography variant="body2">
                             </Typography>
                         </Paper>
@@ -146,7 +143,7 @@ const Experience = () => {
                     <TimelineSeparator>
                         <TimelineDot variant="outlined">
                             <Link href={frontRush}>
-                                <img src={frontrush} className={classes.dot} />
+                                <img src={frontrush} className={classes.dot} alt='' />
                             </Link>
                         </TimelineDot>
                         <TimelineConnector />
@@ -194,7 +191,7 @@ const Experience = () => {
                     <TimelineSeparator>
                         <TimelineDot variant="outlined">
                             <Link href={courseSequence}>
-                                <img src={uwaterloo} className={classes.dot} />
+                                <img src={uwaterloo} className={classes.dot} alt='' />
                             </Link>
                         </TimelineDot>
                         <TimelineConnector />
@@ -207,15 +204,13 @@ const Experience = () => {
                             <Typography variant="caption">
                                 Jan - May 2020
                         </Typography>
-                            <Typography variant="body2">
-                                <List>
-                                    <Course course='CS 136 Elementary Algorithm Design and Data Abstraction' icon={<DesktopWindowsIcon />} />
-                                    <Course course='MATH 138 Calculus 2 for Honours Mathematics' icon={<FunctionsIcon />} />
-                                    <Course course='MATH 136 Linear Algebra for Honours Mathematics' icon={<FunctionsIcon />} />
-                                    <Course course='AFM 121 Introduction to Global Financial Markets' icon={<AccountBalanceIcon />} />
-                                    <Course course='AFM 102 Introduction to Managerial Accounting' icon={<AccountBalanceIcon />} />
-                                </List>
-                            </Typography>
+                            <List>
+                                <Course course='CS 136 Elementary Algorithm Design and Data Abstraction' icon={<DesktopWindowsIcon />} />
+                                <Course course='MATH 138 Calculus 2 for Honours Mathematics' icon={<FunctionsIcon />} />
+                                <Course course='MATH 136 Linear Algebra for Honours Mathematics' icon={<FunctionsIcon />} />
+                                <Course course='AFM 121 Introduction to Global Financial Markets' icon={<AccountBalanceIcon />} />
+                                <Course course='AFM 102 Introduction to Managerial Accounting' icon={<AccountBalanceIcon />} />
+                            </List>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
@@ -224,7 +219,7 @@ const Experience = () => {
                     <TimelineSeparator>
                         <TimelineDot variant="outlined">
                             <Link href={openHouse}>
-                                <img src={uwaterloo} className={classes.dot} />
+                                <img src={uwaterloo} className={classes.dot} alt='' />
                             </Link>
                         </TimelineDot>
                         <TimelineConnector />
@@ -273,7 +268,7 @@ const Experience = () => {
                     <TimelineSeparator>
                         <TimelineDot variant="outlined">
                             <Link href={hackTheNorth}>
-                                <img src={htn} className={classes.dot} />
+                                <img src={htn} className={classes.dot} alt='' />
                             </Link>
                         </TimelineDot>
                         <TimelineConnector />
@@ -297,7 +292,7 @@ const Experience = () => {
                     <TimelineSeparator>
                         <TimelineDot variant="outlined">
                             <Link href={courseSequence}>
-                                <img src={uwaterloo} className={classes.dot} />
+                                <img src={uwaterloo} className={classes.dot} alt='' />
                             </Link>
                         </TimelineDot>
                         <TimelineConnector />
@@ -306,19 +301,17 @@ const Experience = () => {
                         <Paper elevation={3} className={classes.paper} >
                             <Typography variant="h5" align='center'>
                                 1A Term
-                        </Typography>
+                            </Typography>
                             <Typography variant="caption">
                                 Sept - Dec 2020
-                        </Typography>
-                            <Typography variant="body2">
-                                <List>
-                                    <Course course='CS 135 Designing Functional Programs' icon={<DesktopWindowsIcon />} />
-                                    <Course course='MATH 137 Calculus 1 for Honours Mathematics' icon={<FunctionsIcon />} />
-                                    <Course course='MATH 135 Algebra for Honours Mathematics' icon={<FunctionsIcon />} />
-                                    <Course course='AFM 101 Introduction to Financial Accounting' icon={<AccountBalanceIcon />} />
-                                    <Course course='AFM 132 Introduction to Business Stages' icon={<AccountBalanceIcon />} />
-                                </List>
                             </Typography>
+                            <List>
+                                <Course course='CS 135 Designing Functional Programs' icon={<DesktopWindowsIcon />} />
+                                <Course course='MATH 137 Calculus 1 for Honours Mathematics' icon={<FunctionsIcon />} />
+                                <Course course='MATH 135 Algebra for Honours Mathematics' icon={<FunctionsIcon />} />
+                                <Course course='AFM 101 Introduction to Financial Accounting' icon={<AccountBalanceIcon />} />
+                                <Course course='AFM 132 Introduction to Business Stages' icon={<AccountBalanceIcon />} />
+                            </List>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
