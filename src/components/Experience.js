@@ -102,7 +102,7 @@ const Experience = () => {
                                 2A Term
                             </Typography>
                             <Typography variant="caption">
-                                Sept - Dec 2020
+                                Sep - Dec 2020
                             </Typography>
                             <List>
                                 <Course course='CS 246 Object-Oriented Software Development' icon={<DesktopWindowsIcon />} />
@@ -154,7 +154,7 @@ const Experience = () => {
                                 Front Rush
                         </Typography>
                             <Typography variant="caption">
-                                May - August 2020
+                                May - Aug 2020
                         </Typography>
                             <Typography variant="body2">
                                 Built the front-end of the company's admin site using <b>JavaScript</b> and <b>HTML/CSS</b>. Wrote <b>SQL</b> queries against database to create custom reports and complete investigative work into support tickets. Created <b>VBA</b> macros to clean customer data.
@@ -178,7 +178,7 @@ const Experience = () => {
                                 CoffeeNCode Member
                         </Typography>
                             <Typography variant="caption">
-                                Feb - March 2020
+                                Feb - Mar 2020
                         </Typography>
                             <Typography variant="body2">
                                 Used <b>JavaScript</b> to make bots that compete in a war game!
@@ -202,7 +202,7 @@ const Experience = () => {
                                 1B Term
                         </Typography>
                             <Typography variant="caption">
-                                Jan - May 2020
+                                Jan - Apr 2020
                         </Typography>
                             <List>
                                 <Course course='CS 136 Elementary Algorithm Design and Data Abstraction' icon={<DesktopWindowsIcon />} />
@@ -279,7 +279,7 @@ const Experience = () => {
                                 Hack the North Volunteer
                         </Typography>
                             <Typography variant="caption">
-                                Sept 2019
+                                Sep 2019
                         </Typography>
                             <Typography variant="body2">
                                 Acted as a logistics volunteer to ensure the hackathon ran smoothly
@@ -303,7 +303,7 @@ const Experience = () => {
                                 1A Term
                             </Typography>
                             <Typography variant="caption">
-                                Sept - Dec 2020
+                                Sep - Dec 2020
                             </Typography>
                             <List>
                                 <Course course='CS 135 Designing Functional Programs' icon={<DesktopWindowsIcon />} />

@@ -13,10 +13,7 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: '#f4f4f4'
   },
   scroll: {
-    scrollMarginTop: '75px',
-    [theme.breakpoints.down('xs')]: {
-      scrollMarginTop: '150px'
-    }
+    scrollMarginTop: '75px'
   }
 }));
 
