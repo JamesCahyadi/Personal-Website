@@ -7,15 +7,18 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   root: {
     paddingBottom: 20,
     backgroundColor: '#f4f4f4'
   },
   scroll: {
-    scrollMarginTop: '8vh'
+    scrollMarginTop: '8vh',
+    [theme.breakpoints.down('sm')]: {
+      scrollMarginTop: '16vh'
+    }
   }
-});
+}));
 
 function App() {
   const classes = useStyles();
