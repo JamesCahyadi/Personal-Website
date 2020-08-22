@@ -6,7 +6,10 @@ const useStyles = makeStyles((theme) => ({
     appBarStyles: {
         position: 'sticky',
         color: 'primary',
-        marginBottom: 20
+        marginBottom: 20,
+        [theme.breakpoints.down('xs')]: {
+            position: 'static'
+        }
     },
     avatarStyles: {
         height: 45,

@@ -1,6 +1,6 @@
 import React, { createRef } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Grid } from '@material-ui/core';
+import { Grid, Paper } from '@material-ui/core';
 import Navbar from './components/Navbar';
 import ResumeCard from './components/ResumeCard';
 import Experience from './components/Experience';
@@ -13,7 +13,10 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: '#f4f4f4'
   },
   scroll: {
-    scrollMarginTop: '75px'
+    scrollMarginTop: '75px',
+    [theme.breakpoints.down('xs')]: {
+      scrollMarginTop: 0
+    }
   }
 }));
 
