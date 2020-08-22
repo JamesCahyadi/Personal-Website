@@ -29,7 +29,7 @@ const useStyles = makeStyles({
 const Footer = () => {
     const classes = useStyles();
     return (
-        <Paper className={classes.root}>
+        <Paper className={classes.root} square>
             <Box>
                 <Link href='https://github.com/JamesCahyadi'>
                     <GitHubIcon className={classes.icon} />

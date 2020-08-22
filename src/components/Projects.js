@@ -30,14 +30,14 @@ const Projects = () => {
                         image={PersonalWebsite}
                         title='Personal Website'
                         technologies='React, Material-UI'
-                        description='This website is a project itself. I look to regularly update this website and improve it throughout my journey.'
+                        description='This website is a project itself that I plan to regularly update and improve throughout my journey.'
                         github='https://github.com/JamesCahyadi/Personal-Website'
                         website='' />
                     <ProjectCard
                         image={UWZone}
                         title='UW Zone'
                         technologies='Flask, PostgreSQL'
-                        description='A CRUD application which allows University of Waterloo Students to share experiences about their programs.'
+                        description='A CRUD application which allows University of Waterloo Students to share program experiences.'
                         github='https://github.com/JamesCahyadi/UW-Zone'
                         website='https://uwzone.herokuapp.com/' />
                     <ProjectCard
