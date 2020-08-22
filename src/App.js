@@ -7,14 +7,13 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
-
 const useStyles = makeStyles({
   root: {
     paddingBottom: 20,
     backgroundColor: '#f4f4f4'
   },
   scroll: {
-    scrollMarginTop: '45px'
+    scrollMarginTop: '75px'
   }
 });
 

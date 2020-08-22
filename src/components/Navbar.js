@@ -11,9 +11,6 @@ const useStyles = makeStyles((theme) => ({
     avatarStyles: {
         height: 45,
         width: 45
-    },
-    btn: {
-        marginLeft: 0
     }
 }));
 
@@ -27,7 +24,7 @@ const Navbar = ({ projectsRef, experienceRef, resumeRef }) => {
                     <IconButton onClick={() => resumeRef.current.scrollIntoView({ behavior: 'smooth' })}>
                         <Avatar>JC</Avatar>
                     </IconButton>
-                    <Button color="inherit" className={classes.btn} onClick={() => experienceRef.current.scrollIntoView({ behavior: 'smooth' })} > Experience</Button>
+                    <Button color="inherit" onClick={() => experienceRef.current.scrollIntoView({ behavior: 'smooth' })} > Experience</Button>
                     <Button color="inherit" onClick={() => projectsRef.current.scrollIntoView({ behavior: 'smooth' })}>Projects</Button>
                 </Toolbar>
             </AppBar>
