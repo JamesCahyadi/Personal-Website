@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     backgroundColor: '#f4f4f4'
   },
   scroll: {
-    scrollMarginTop: '75px'
+    scrollMarginTop: '8vh'
   }
 });
 
