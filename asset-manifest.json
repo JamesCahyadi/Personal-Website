@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "//jamescahyadi.github.io/Personal-Website/static/css/main.9db7feab.chunk.css",
+    "main.js": "//jamescahyadi.github.io/Personal-Website/static/js/main.1e780498.chunk.js",
+    "main.js.map": "//jamescahyadi.github.io/Personal-Website/static/js/main.1e780498.chunk.js.map",
+    "runtime-main.js": "//jamescahyadi.github.io/Personal-Website/static/js/runtime-main.edffbe29.js",
+    "runtime-main.js.map": "//jamescahyadi.github.io/Personal-Website/static/js/runtime-main.edffbe29.js.map",
+    "static/js/2.464d7c94.chunk.js": "//jamescahyadi.github.io/Personal-Website/static/js/2.464d7c94.chunk.js",
+    "static/js/2.464d7c94.chunk.js.map": "//jamescahyadi.github.io/Personal-Website/static/js/2.464d7c94.chunk.js.map",
+    "index.html": "//jamescahyadi.github.io/Personal-Website/index.html",
+    "precache-manifest.2faddad90d3f25c4b4e67bf86c06be1e.js": "//jamescahyadi.github.io/Personal-Website/precache-manifest.2faddad90d3f25c4b4e67bf86c06be1e.js",
+    "service-worker.js": "//jamescahyadi.github.io/Personal-Website/service-worker.js",
+    "static/css/main.9db7feab.chunk.css.map": "//jamescahyadi.github.io/Personal-Website/static/css/main.9db7feab.chunk.css.map",
+    "static/js/2.464d7c94.chunk.js.LICENSE.txt": "//jamescahyadi.github.io/Personal-Website/static/js/2.464d7c94.chunk.js.LICENSE.txt",
+    "static/media/ComSciResume.pdf": "//jamescahyadi.github.io/Personal-Website/static/media/ComSciResume.a84ca5e0.pdf",
+    "static/media/dodgemaster.png": "//jamescahyadi.github.io/Personal-Website/static/media/dodgemaster.13a09c8d.png",
+    "static/media/frontrush.png": "//jamescahyadi.github.io/Personal-Website/static/media/frontrush.a38a8004.png",
+    "static/media/htn.png": "//jamescahyadi.github.io/Personal-Website/static/media/htn.a447f923.png",
+    "static/media/me.jpg": "//jamescahyadi.github.io/Personal-Website/static/media/me.f8519c96.jpg",
+    "static/media/personalwebsite.png": "//jamescahyadi.github.io/Personal-Website/static/media/personalwebsite.38003aaa.png",
+    "static/media/popcornmovies.png": "//jamescahyadi.github.io/Personal-Website/static/media/popcornmovies.c1708e97.png",
+    "static/media/starterhacks.png": "//jamescahyadi.github.io/Personal-Website/static/media/starterhacks.ce711f2d.png",
+    "static/media/uwaterloo.png": "//jamescahyadi.github.io/Personal-Website/static/media/uwaterloo.f3f8f923.png",
+    "static/media/uwzone.png": "//jamescahyadi.github.io/Personal-Website/static/media/uwzone.10faec67.png",
+    "static/media/wordsearch.png": "//jamescahyadi.github.io/Personal-Website/static/media/wordsearch.ba25497a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edffbe29.js",
+    "static/js/2.464d7c94.chunk.js",
+    "static/css/main.9db7feab.chunk.css",
+    "static/js/main.1e780498.chunk.js"
+  ]
+}
