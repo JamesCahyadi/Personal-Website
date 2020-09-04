@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.9db7feab.chunk.css",
-    "main.js": "/Personal-Website/static/js/main.dd705584.chunk.js",
-    "main.js.map": "/Personal-Website/static/js/main.dd705584.chunk.js.map",
+    "main.js": "/Personal-Website/static/js/main.e35c2dba.chunk.js",
+    "main.js.map": "/Personal-Website/static/js/main.e35c2dba.chunk.js.map",
     "runtime-main.js": "/Personal-Website/static/js/runtime-main.1978ef10.js",
     "runtime-main.js.map": "/Personal-Website/static/js/runtime-main.1978ef10.js.map",
-    "static/js/2.903ffe94.chunk.js": "/Personal-Website/static/js/2.903ffe94.chunk.js",
-    "static/js/2.903ffe94.chunk.js.map": "/Personal-Website/static/js/2.903ffe94.chunk.js.map",
+    "static/js/2.e6a252a5.chunk.js": "/Personal-Website/static/js/2.e6a252a5.chunk.js",
+    "static/js/2.e6a252a5.chunk.js.map": "/Personal-Website/static/js/2.e6a252a5.chunk.js.map",
     "index.html": "/Personal-Website/index.html",
-    "precache-manifest.bb95352cfe060273449fbbd285557afb.js": "/Personal-Website/precache-manifest.bb95352cfe060273449fbbd285557afb.js",
+    "precache-manifest.eee0ebea212679f123d82fa032addf59.js": "/Personal-Website/precache-manifest.eee0ebea212679f123d82fa032addf59.js",
     "service-worker.js": "/Personal-Website/service-worker.js",
     "static/css/main.9db7feab.chunk.css.map": "/Personal-Website/static/css/main.9db7feab.chunk.css.map",
-    "static/js/2.903ffe94.chunk.js.LICENSE.txt": "/Personal-Website/static/js/2.903ffe94.chunk.js.LICENSE.txt",
+    "static/js/2.e6a252a5.chunk.js.LICENSE.txt": "/Personal-Website/static/js/2.e6a252a5.chunk.js.LICENSE.txt",
     "static/media/ComSciResume.pdf": "/Personal-Website/static/media/ComSciResume.a84ca5e0.pdf",
     "static/media/dodgemaster.png": "/Personal-Website/static/media/dodgemaster.13a09c8d.png",
     "static/media/frontrush.png": "/Personal-Website/static/media/frontrush.a38a8004.png",
     "static/media/htn.png": "/Personal-Website/static/media/htn.a447f923.png",
+    "static/media/inventorymgt.png": "/Personal-Website/static/media/inventorymgt.88e7febf.png",
     "static/media/me.jpg": "/Personal-Website/static/media/me.f8519c96.jpg",
     "static/media/personalwebsite.png": "/Personal-Website/static/media/personalwebsite.2a1951a3.png",
     "static/media/popcornmovies.png": "/Personal-Website/static/media/popcornmovies.c1708e97.png",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1978ef10.js",
-    "static/js/2.903ffe94.chunk.js",
+    "static/js/2.e6a252a5.chunk.js",
     "static/css/main.9db7feab.chunk.css",
-    "static/js/main.dd705584.chunk.js"
+    "static/js/main.e35c2dba.chunk.js"
   ]
 }
