@@ -119,29 +119,6 @@ const Experience = () => {
                 <TimelineItem>
                     <TimelineSeparator>
                         <TimelineDot variant="outlined">
-                            <Link href={starterHacks}>
-                                <img src={starterhacks} className={classes.dot} alt='' />
-                            </Link>
-                        </TimelineDot>
-                        <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                        <Paper elevation={3} className={classes.paper} >
-                            <Typography variant="h5">
-                                StarterHacks
-                            </Typography>
-                            <Typography variant="caption">
-                                Jan 2020
-                            </Typography>
-                            <Typography variant="body2">
-                            </Typography>
-                        </Paper>
-                    </TimelineContent>
-                </TimelineItem>
-
-                <TimelineItem>
-                    <TimelineSeparator>
-                        <TimelineDot variant="outlined">
                             <Link href={frontRush}>
                                 <img src={frontrush} className={classes.dot} alt='' />
                             </Link>
@@ -183,6 +160,29 @@ const Experience = () => {
                             <Typography variant="body2">
                                 Used <b>JavaScript</b> to make bots that compete in a war game!
                         </Typography>
+                        </Paper>
+                    </TimelineContent>
+                </TimelineItem>
+
+                <TimelineItem>
+                    <TimelineSeparator>
+                        <TimelineDot variant="outlined">
+                            <Link href={starterHacks}>
+                                <img src={starterhacks} className={classes.dot} alt='' />
+                            </Link>
+                        </TimelineDot>
+                        <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Paper elevation={3} className={classes.paper} >
+                            <Typography variant="h5">
+                                StarterHacks
+                            </Typography>
+                            <Typography variant="caption">
+                                Jan 2020
+                            </Typography>
+                            <Typography variant="body2">
+                            </Typography>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>

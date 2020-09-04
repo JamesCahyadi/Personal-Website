@@ -1,6 +1,6 @@
 import React, { createRef } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Grid, Paper } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import Navbar from './components/Navbar';
 import ResumeCard from './components/ResumeCard';
 import Experience from './components/Experience';
@@ -40,8 +40,6 @@ function App() {
           </Grid>
         </Grid>
       </Grid>
-      <br></br>
-      <hr></hr>
       <Grid container ref={experienceRef} className={classes.scroll}>
         <Grid item lg={2} />
         <Grid item xs={12} lg>

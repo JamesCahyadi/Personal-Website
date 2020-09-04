@@ -7,6 +7,8 @@ import UWZone from '../assets/uwzone.png';
 import Wordsearch from '../assets/wordsearch.png';
 import PopcornMovies from '../assets/popcornmovies.png';
 import DodgeMaster from '../assets/dodgemaster.png';
+import InventoryMgt from '../assets/inventorymgt.png';
+
 
 const useStyles = makeStyles({
     root: {
@@ -26,6 +28,13 @@ const Projects = () => {
             <Paper elevation={1} className={classes.root}>
                 <Typography variant='h4' align='center' className={classes.title}>Projects</Typography>
                 <Grid container spacing={2}>
+                    <ProjectCard
+                        image={InventoryMgt}
+                        title='Inventory Management'
+                        technologies='PostgreSQL, Express, React, Node.js'
+                        description='A PERN-stack application that utilizes a RESTful API to get, post, put, and delete data.'
+                        github='https://github.com/JamesCahyadi/Personal-Website'
+                        website='https://the-inventory-management.herokuapp.com/items' />
                     <ProjectCard
                         image={PersonalWebsite}
                         title='Personal Website'
