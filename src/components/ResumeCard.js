@@ -70,7 +70,7 @@ const ResumeCard = () => {
                     icon={<GitHubIcon className={classes.icon} />}
                 />
                 <InfoSnippet
-                    url='https://www.linkedin.com/in/james-cahyadi-686673155/?originalSubdomain=ca'
+                    url='https://www.linkedin.com/in/j-cahyadi'
                     info='LinkedIn'
                     icon={<LinkedInIcon className={classes.icon} />}
                 />

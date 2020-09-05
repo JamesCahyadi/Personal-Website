@@ -34,7 +34,7 @@ const Projects = () => {
                         technologies='PostgreSQL, Express, React, Node.js'
                         description='A PERN-stack application that utilizes a RESTful API to get, post, put, and delete data.'
                         github='https://github.com/JamesCahyadi/Personal-Website'
-                        website='https://the-inventory-management.herokuapp.com' />
+                        website='https://inv-management.herokuapp.com' />
                     <ProjectCard
                         image={PersonalWebsite}
                         title='Personal Website'

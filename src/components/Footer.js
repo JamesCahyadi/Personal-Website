@@ -37,7 +37,7 @@ const Footer = () => {
                 <Link href='mailto:jcahyadi@uwaterloo.ca'>
                     <EmailIcon className={classes.icon} />
                 </Link>
-                <Link href='https://www.linkedin.com/in/james-cahyadi-686673155/?originalSubdomain=ca'>
+                <Link href='https://www.linkedin.com/in/j-cahyadi'>
                     <LinkedInIcon className={classes.icon} />
                 </Link>
                 <Link href='https://www.facebook.com/james.cahyadi.71'>
