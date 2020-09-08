@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4444f9a939fa82116b2eb16b6e4c1d0e",
+    "revision": "8c34896bc00e066c29d4ed919d66ca1f",
     "url": "/Personal-Website/index.html"
   },
   {
-    "revision": "6ee1842e69035337451e",
+    "revision": "8c0bb223b004bd3586b8",
     "url": "/Personal-Website/static/css/main.9db7feab.chunk.css"
   },
   {
-    "revision": "f4f9afd1186e8c0565da",
-    "url": "/Personal-Website/static/js/2.e6a252a5.chunk.js"
+    "revision": "10065ea50aa222a6c70b",
+    "url": "/Personal-Website/static/js/2.8bc417d0.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/Personal-Website/static/js/2.e6a252a5.chunk.js.LICENSE.txt"
+    "url": "/Personal-Website/static/js/2.8bc417d0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ee1842e69035337451e",
-    "url": "/Personal-Website/static/js/main.9250c105.chunk.js"
+    "revision": "8c0bb223b004bd3586b8",
+    "url": "/Personal-Website/static/js/main.52195765.chunk.js"
   },
   {
     "revision": "064793cb06c2f9562e75",
     "url": "/Personal-Website/static/js/runtime-main.1978ef10.js"
-  },
-  {
-    "revision": "a84ca5e06bf738a917fdc70ceade106e",
-    "url": "/Personal-Website/static/media/ComSciResume.a84ca5e0.pdf"
   },
   {
     "revision": "13a09c8d205eababf0ad25a69e945712",
@@ -54,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c1708e97e1b4fca631ab2c327de1ce53",
     "url": "/Personal-Website/static/media/popcornmovies.c1708e97.png"
+  },
+  {
+    "revision": "cbecaa0a865115fe93e96cc2e85dbbc9",
+    "url": "/Personal-Website/static/media/resume.cbecaa0a.pdf"
   },
   {
     "revision": "ce711f2d0b391410019c017637c93da6",
