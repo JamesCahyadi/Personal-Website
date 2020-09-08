@@ -46,7 +46,7 @@ const Footer = () => {
             </Box>
             <Box>
                 <Typography variant='caption' className={classes.text}>
-                    Made by James Cahyadi ©
+                    Made by James Cahyadi
             </Typography>
             </Box>
         </Paper>

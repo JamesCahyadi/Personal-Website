@@ -7,8 +7,9 @@ import SchoolIcon from '@material-ui/icons/School';
 import ReceiptIcon from '@material-ui/icons/Receipt';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailIcon from '@material-ui/icons/Email';
 import me from '../assets/me.jpg';
-import resume from '../assets/ComSciResume.pdf';
+import resume from '../assets/resume.pdf';
 
 const useStyles = makeStyles({
     root: {
@@ -58,6 +59,11 @@ const ResumeCard = () => {
                     url='https://uwaterloo.ca/computing-financial-management/'
                     info='2A Computing and Financial Management'
                     icon={<ComputerIcon className={classes.icon} />}
+                />
+                <InfoSnippet
+                    url={'mailto:jcahyadi@uwaterloo.ca'}
+                    info='jcahyadi@uwaterloo.ca'
+                    icon={<EmailIcon className={classes.icon} />}
                 />
                 <InfoSnippet
                     url={resume}
