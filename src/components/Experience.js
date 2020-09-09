@@ -15,7 +15,6 @@ import LocalCafeIcon from '@material-ui/icons/LocalCafe';
 import DesktopWindowsIcon from '@material-ui/icons/DesktopWindows';
 import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
-import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
 import FunctionsIcon from '@material-ui/icons/Functions';
 import starterhacks from '../assets/starterhacks.png';
 import frontrush from '../assets/frontrush.png';
@@ -110,7 +109,6 @@ const Experience = () => {
                                 <Course course='CS 241 Foundations of Sequential Programs' icon={<DesktopWindowsIcon />} />
                                 <Course course='STAT 230 Probability' icon={<TrendingUpIcon />} />
                                 <Course course='AFM 272 Corporate Finance 1' icon={<AccountBalanceIcon />} />
-                                <Course course='ECON 101 Introduction to Microeconomics' icon={<MonetizationOnIcon />} />
                             </List>
                         </Paper>
                     </TimelineContent>
