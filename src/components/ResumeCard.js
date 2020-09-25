@@ -43,7 +43,7 @@ const ResumeCard = () => {
                 titleTypographyProps={{ variant: 'h3' }}
                 title='James Cahyadi'
                 subheaderTypographyProps={{ variant: 'subtitle1' }}
-                subheader='JavaScript, Python, Java, C, SQL' />
+                subheader='JavaScript, Python, Java, HTML/CSS, SQL, C' />
             <CardMedia
                 className={classes.img}
                 image={me}
