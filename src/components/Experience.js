@@ -132,7 +132,7 @@ const Experience = () => {
                                 May - Aug 2020
                         </Typography>
                             <Typography variant="body2">
-                                Built the front-end of the company's admin site using <b>JavaScript</b> and <b>HTML/CSS</b>. Wrote <b>SQL</b> queries against database to create custom reports and complete investigative work into support tickets. Created <b>VBA</b> macros to clean customer data.
+                                Built the front-end of the company's website and admin site using <b>JavaScript</b> and <b>HTML/CSS</b>. Wrote <b>SQL</b> queries against database to import data, create custom reports, and complete investigative work into support tickets. Created <b>VBA</b> macros to clean and extract customer data.
                         </Typography>
                         </Paper>
                     </TimelineContent>
