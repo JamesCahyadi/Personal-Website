@@ -48,7 +48,7 @@ const Projects = () => {
             github="https://github.com/AndyKChen/motion"
             devpost="https://devpost.com/software/motion-9eofri"
           />
-          <ProjectCard image={sorcery} title="Sorcery" technologies="C++" description="A text-based multiplayer card game which utitilizes object-oriented programming and design patterns." />
+          <ProjectCard image={sorcery} title="Sorcery" technologies="C++" description="A text-based multiplayer card game which utilizes object-oriented programming and design patterns." />
           <ProjectCard
             image={InventoryMgt}
             title="Inventory Management"
