@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d07143d5eadaebae162fee97d841844",
+    "revision": "0ed795e52e5507c77feedfb9078848bb",
     "url": "/Personal-Website/index.html"
   },
   {
-    "revision": "a8f24e1994e052b045df",
+    "revision": "dcf9fb008ea8819fb913",
     "url": "/Personal-Website/static/css/main.9db7feab.chunk.css"
   },
   {
-    "revision": "d2cbee40d8e010963a62",
-    "url": "/Personal-Website/static/js/2.2d74c5c1.chunk.js"
+    "revision": "2e4d7d97951a00fbde1b",
+    "url": "/Personal-Website/static/js/2.acb5c53c.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/Personal-Website/static/js/2.2d74c5c1.chunk.js.LICENSE.txt"
+    "url": "/Personal-Website/static/js/2.acb5c53c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a8f24e1994e052b045df",
-    "url": "/Personal-Website/static/js/main.9a765a16.chunk.js"
+    "revision": "dcf9fb008ea8819fb913",
+    "url": "/Personal-Website/static/js/main.f6f82050.chunk.js"
   },
   {
     "revision": "064793cb06c2f9562e75",
     "url": "/Personal-Website/static/js/runtime-main.1978ef10.js"
+  },
+  {
+    "revision": "f3703e6ff8677c504a736a3ad9f38d11",
+    "url": "/Personal-Website/static/media/bingewatch.f3703e6f.JPG"
   },
   {
     "revision": "13a09c8d205eababf0ad25a69e945712",
@@ -30,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a38a8004243ae01c9636cbaed65305d9",
     "url": "/Personal-Website/static/media/frontrush.a38a8004.png"
+  },
+  {
+    "revision": "82bc4ffca7a47d4b24a4799db1255f42",
+    "url": "/Personal-Website/static/media/geotab.82bc4ffc.png"
   },
   {
     "revision": "a447f9238b986efc812329f57508c5a6",
@@ -44,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Website/static/media/me.f8519c96.jpg"
   },
   {
+    "revision": "0245acc947a74a7a293c2d727b0e320b",
+    "url": "/Personal-Website/static/media/motion.0245acc9.JPG"
+  },
+  {
     "revision": "2a1951a389a2b7cb11d785014a4419e8",
     "url": "/Personal-Website/static/media/personalwebsite.2a1951a3.png"
   },
@@ -52,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Website/static/media/popcornmovies.c1708e97.png"
   },
   {
-    "revision": "4e82bf4d99551e22c643aa47b7ab1512",
-    "url": "/Personal-Website/static/media/resume.4e82bf4d.pdf"
+    "revision": "e5a8de8d4e4a6f33a22166cdcf61b341",
+    "url": "/Personal-Website/static/media/sorcery.e5a8de8d.jpg"
   },
   {
     "revision": "ce711f2d0b391410019c017637c93da6",
