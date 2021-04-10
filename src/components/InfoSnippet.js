@@ -19,7 +19,7 @@ const InfoSnippet = ({ url, info, icon }) => {
       href={url}
       color="textPrimary"
       onClick={() => {
-        GAevent(constants.CATEGORIES.PERSONAL_INFO_CARD, constants.CATEGORIES.ACTIONS, info);
+        GAevent(constants.CATEGORIES.PERSONAL_INFO_CARD, constants.ACTIONS.CLICK, info);
       }}
     >
       <Paper elevation={0} className={classes.paper} square>
