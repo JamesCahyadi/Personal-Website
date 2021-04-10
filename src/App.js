@@ -1,4 +1,3 @@
-import GA4React, { useGA4React } from "ga-4-react";
 import React, { createRef } from "react";
 
 import Experience from "./components/Experience";
@@ -27,8 +26,7 @@ function App() {
   const projectsRef = createRef();
   const experienceRef = createRef();
   const resumeRef = createRef();
-  const ga = useGA4React();
-  console.log(ga);
+
   return (
     <>
       <Navbar projectsRef={projectsRef} experienceRef={experienceRef} resumeRef={resumeRef} />
