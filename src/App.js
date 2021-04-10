@@ -29,9 +29,10 @@ function App() {
   const resumeRef = createRef();
 
   useEffect(() => {
-    ReactGA.initialize("UA-194306998-1");
-    console.log("init ga!!!");
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    if (window.location.hostname !== "localhost") {
+      ReactGA.initialize("UA-194306998-1");
+      ReactGA.pageview(window.location.pathname + window.location.search);
+    }
   }, []);
 
   return (
