@@ -1,23 +1,25 @@
-import React, { createRef } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import { Grid } from '@material-ui/core';
-import Navbar from './components/Navbar';
-import ResumeCard from './components/ResumeCard';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
+import GA4React, { useGA4React } from "ga-4-react";
+import React, { createRef } from "react";
 
-const useStyles = makeStyles(theme => ({
+import Experience from "./components/Experience";
+import Footer from "./components/Footer";
+import { Grid } from "@material-ui/core";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import ResumeCard from "./components/ResumeCard";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles((theme) => ({
   root: {
     paddingBottom: 20,
-    backgroundColor: '#f4f4f4'
+    backgroundColor: "#f4f4f4",
   },
   scroll: {
-    scrollMarginTop: '75px',
-    [theme.breakpoints.down('xs')]: {
-      scrollMarginTop: 0
-    }
-  }
+    scrollMarginTop: "75px",
+    [theme.breakpoints.down("xs")]: {
+      scrollMarginTop: 0,
+    },
+  },
 }));
 
 function App() {
@@ -25,19 +27,18 @@ function App() {
   const projectsRef = createRef();
   const experienceRef = createRef();
   const resumeRef = createRef();
-
+  const ga = useGA4React();
+  console.log(ga);
   return (
     <>
       <Navbar projectsRef={projectsRef} experienceRef={experienceRef} resumeRef={resumeRef} />
-      <Grid container ref={resumeRef} className={classes.scroll} >
+      <Grid container ref={resumeRef} className={classes.scroll}>
         <Grid container>
-          <Grid item sm={2} lg={4}>
-          </Grid>
+          <Grid item sm={2} lg={4}></Grid>
           <Grid item xs={12} sm={8} lg={4}>
             <ResumeCard />
           </Grid>
-          <Grid item sm={2} lg={4}>
-          </Grid>
+          <Grid item sm={2} lg={4}></Grid>
         </Grid>
       </Grid>
       <Grid container ref={experienceRef} className={classes.scroll}>
