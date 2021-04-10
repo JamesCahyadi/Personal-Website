@@ -30,7 +30,9 @@ function App() {
 
   useEffect(() => {
     ReactGA.initialize("UA-194306998-1");
+    console.log("init ga");
   }, []);
+
   return (
     <>
       <Navbar projectsRef={projectsRef} experienceRef={experienceRef} resumeRef={resumeRef} />
