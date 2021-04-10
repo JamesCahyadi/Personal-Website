@@ -8,7 +8,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { teal } from "@material-ui/core/colors";
 
-const ga4react = new GA4React("G-1JXXXXX");
+const ga4react = new GA4React("G-EQLXF3NBD6");
 
 const theme = createMuiTheme({
   palette: {
