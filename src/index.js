@@ -3,12 +3,9 @@ import "./index.css";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 
 import App from "./App";
-import GA4React from "ga-4-react";
 import React from "react";
 import ReactDOM from "react-dom";
 import { teal } from "@material-ui/core/colors";
-
-const ga4react = new GA4React("G-EQLXF3NBD6");
 
 const theme = createMuiTheme({
   palette: {
@@ -16,15 +13,11 @@ const theme = createMuiTheme({
   },
 });
 
-(async () => {
-  await ga4react.initialize();
-
-  ReactDOM.render(
-    <React.StrictMode>
-      <ThemeProvider theme={theme}>
-        <App />
-      </ThemeProvider>
-    </React.StrictMode>,
-    document.getElementById("root")
-  );
-})();
+ReactDOM.render(
+  <React.StrictMode>
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
+  </React.StrictMode>,
+  document.getElementById("root")
+);

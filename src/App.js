@@ -1,10 +1,11 @@
-import React, { createRef } from "react";
+import React, { createRef, useEffect } from "react";
 
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import { Grid } from "@material-ui/core";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
+import ReactGA from "react-ga";
 import ResumeCard from "./components/ResumeCard";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -27,6 +28,9 @@ function App() {
   const experienceRef = createRef();
   const resumeRef = createRef();
 
+  useEffect(() => {
+    ReactGA.initialize("UA-194306998-1");
+  }, []);
   return (
     <>
       <Navbar projectsRef={projectsRef} experienceRef={experienceRef} resumeRef={resumeRef} />
