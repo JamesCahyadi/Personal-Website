@@ -155,7 +155,7 @@ const Experience = () => {
               <Typography variant="h5">Geotab</Typography>
               <Typography variant="caption">Jan - Apr 2021</Typography>
               <Typography variant="body2">
-                Developed map visualization software using <b>Plolty</b> and <b>Mapbox</b> to allow traffic engineers to analyze navigation routes. Implemented frontend <b>caching</b> to optimize the
+                Developed map visualization software using <b>Plotly</b> and <b>Mapbox</b> to allow traffic engineers to analyze navigation routes. Implemented frontend <b>caching</b> to optimize the
                 software's performance and reduce backend load by over 60%
               </Typography>
             </Paper>
