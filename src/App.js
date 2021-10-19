@@ -1,6 +1,6 @@
 import React, { createRef, useEffect } from "react";
 
-import Experience from "./components/Experience";
+import Experience from "./sections/Experience";
 import Footer from "./components/Footer";
 import { Grid } from "@material-ui/core";
 import Navbar from "./components/Navbar";
