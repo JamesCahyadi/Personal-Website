@@ -29,7 +29,7 @@ const TimelineCard = ({ logoLink, logoImg, heading, date, description }) => {
     <TimelineItem>
       <TimelineSeparator>
         <TimelineDot variant="outlined">
-          <Link href={logoLink}>
+          <Link href={logoLink} target="_blank">
             <img src={logoImg} className={classes.dot} alt="" />
           </Link>
         </TimelineDot>

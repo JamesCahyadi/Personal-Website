@@ -3,4 +3,6 @@ export const COURSE_CODES = {
   STAT: "STAT",
   COMSCI: "CS",
   FINANCE: "AFM",
+  ENGLISH: "ENGL",
+  COMMUNICATION: "SPCOM",
 };
