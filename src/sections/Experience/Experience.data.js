@@ -43,14 +43,14 @@ export const experiences = [
     logoLink: prodigyLink,
     heading: "Prodigy Education",
     date: getTermDates(TERMS.FALL, 2021),
-    description: "Performing A/B tests and working on self-serve upgrades for memberships",
+    description: "Performed A/B tests and worked on self-serve upgrades for memberships",
   },
   {
     logoImg: sparkImg,
     logoLink: sparkLink,
     heading: "Spark",
     date: "Aug - Oct 2021",
-    description: "Developing landing page to educate 500+ children in third-world countries",
+    description: "Developed landing page to educate 500+ children in third-world countries",
   },
   {
     logoImg: uwaterlooImg,
