@@ -1,3 +1,6 @@
+import { getCurrentSchoolTerm } from "utils/getCurrentSchoolTerm";
+
+export const name = "James Cahyadi";
 export const personalDetails = [
   {
     url: "https://uwaterloo.ca/",
@@ -6,7 +9,7 @@ export const personalDetails = [
   },
   {
     url: "https://uwaterloo.ca/computing-financial-management/",
-    description: "Computing and Financial Management",
+    description: `${getCurrentSchoolTerm()} Computing and Financial Management`,
     icon: "computer",
   },
   {

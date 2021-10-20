@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardMedia } from "@material-ui/core";
+import { name, personalDetails } from "./Biography.data";
 
 import ComputerIcon from "@material-ui/icons/Computer";
 import EmailIcon from "@material-ui/icons/Email";
@@ -8,12 +9,10 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import React from "react";
 import SchoolIcon from "@material-ui/icons/School";
 import me from "assets/me.jpg";
-import { personalDetails } from "./Biography.data";
 import { useStyles } from "./Biography.styles";
 
 const Biography = () => {
   const classes = useStyles();
-  const name = "James Cahyadi";
 
   const ICON_LOOKUP = {
     school: <SchoolIcon className={classes.icon} />,
