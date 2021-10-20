@@ -1,6 +1,6 @@
-import * as constants from "../constants/";
+import * as EVENTS from "constants/googleAnalytics";
 
-import { GAevent } from "../utils/google-analytics-helpers";
+import { GAevent } from "utils/googleAnalyticsHelpers";
 import Link from "@material-ui/core/Link";
 import Paper from "@material-ui/core/Paper";
 import React from "react";
@@ -19,7 +19,7 @@ const InfoSnippet = ({ url, info, icon }) => {
       href={url}
       color="textPrimary"
       onClick={() => {
-        GAevent(constants.CATEGORIES.PERSONAL_INFO_CARD, constants.ACTIONS.CLICK, info);
+        GAevent(EVENTS.CATEGORIES.PERSONAL_INFO_CARD, EVENTS.ACTIONS.CLICK, info);
       }}
     >
       <Paper elevation={0} className={classes.paper} square>
