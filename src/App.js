@@ -5,7 +5,7 @@ import Experience from "views/Experience";
 import Footer from "components/Footer";
 import { Grid } from "@material-ui/core";
 import Navbar from "components/Navbar";
-import Projects from "components/Projects";
+import Projects from "views/Projects";
 import ReactGA from "react-ga";
 import { makeStyles } from "@material-ui/core/styles";
 
