@@ -22,6 +22,6 @@ export const personalDetails = [
   {
     url: "https://www.linkedin.com/in/j-cahyadi",
     description: "LinkedIn",
-    icon: "linkedIn",
+    icon: "linkedin",
   },
 ];

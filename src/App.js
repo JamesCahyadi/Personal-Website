@@ -1,7 +1,7 @@
 import React, { createRef, useEffect } from "react";
 
-import Biography from "sections/Biography";
-import Experience from "sections/Experience";
+import Biography from "views/Biography";
+import Experience from "views/Experience";
 import Footer from "components/Footer";
 import { Grid } from "@material-ui/core";
 import Navbar from "components/Navbar";
