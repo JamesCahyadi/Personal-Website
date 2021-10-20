@@ -1,12 +1,12 @@
 import React, { createRef, useEffect } from "react";
 
-import Experience from "./sections/Experience";
-import Footer from "./components/Footer";
+import Biography from "sections/Biography";
+import Experience from "sections/Experience";
+import Footer from "components/Footer";
 import { Grid } from "@material-ui/core";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import Navbar from "components/Navbar";
+import Projects from "components/Projects";
 import ReactGA from "react-ga";
-import ResumeCard from "./components/ResumeCard";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
@@ -42,7 +42,7 @@ function App() {
         <Grid container>
           <Grid item sm={2} lg={4}></Grid>
           <Grid item xs={12} sm={8} lg={4}>
-            <ResumeCard />
+            <Biography />
           </Grid>
           <Grid item sm={2} lg={4}></Grid>
         </Grid>
