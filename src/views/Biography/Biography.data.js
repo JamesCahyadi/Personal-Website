@@ -8,8 +8,8 @@ export const personalDetails = [
     icon: "school",
   },
   {
-    url: "https://uwaterloo.ca/computing-financial-management/",
-    description: `${getCurrentSchoolTerm()} Computing and Financial Management`,
+    url: "https://uwaterloo.ca/future-students/programs/computer-science",
+    description: `${getCurrentSchoolTerm()} Computer Science`,
     icon: "computer",
   },
   {
