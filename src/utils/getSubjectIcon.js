@@ -1,7 +1,11 @@
 import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
+import AudiotrackIcon from "@material-ui/icons/Audiotrack";
+import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
 import { COURSE_CODES } from "constants/courseCodes";
 import DesktopWindowsIcon from "@material-ui/icons/DesktopWindows";
+import FlashOnIcon from "@material-ui/icons/FlashOn";
 import FunctionsIcon from "@material-ui/icons/Functions";
+import LocalHospitalIcon from "@material-ui/icons/LocalHospital";
 import MenuBookIcon from "@material-ui/icons/MenuBook";
 import React from "react";
 import RecordVoiceOverIcon from "@material-ui/icons/RecordVoiceOver";
@@ -23,6 +27,16 @@ export const getSubjectIcon = (subject) => {
       return <MenuBookIcon />;
     case COURSE_CODES.COMMUNICATION:
       return <RecordVoiceOverIcon />;
+    case COURSE_CODES.HEALTH:
+    case COURSE_CODES.SCIENCE:
+      return <LocalHospitalIcon />;
+    case COURSE_CODES.ENTREPRENEURSHIP:
+    case COURSE_CODES.COMMERCE:
+      return <BusinessCenterIcon />;
+    case COURSE_CODES.MUSIC:
+      return <AudiotrackIcon />;
+    case COURSE_CODES.CLASSICAL:
+      return <FlashOnIcon />;
     default:
       return <DesktopWindowsIcon />;
   }

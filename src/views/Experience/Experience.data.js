@@ -1,6 +1,7 @@
 import { TERMS, getTermDates } from "constants/termDates";
 
 import coffeeNCodeImg from "assets/coffee.png";
+import coinbaseImg from "assets/coinbase.png";
 import frontrushImg from "assets/frontrush.png";
 import geotabImg from "assets/geotab.png";
 import hackTheNorthImg from "assets/htn.png";
@@ -23,8 +24,31 @@ const geotabLink = "https://www.geotab.com/";
 const deltaHacksLink = "https://www.deltahacks.com/";
 const prodigyLink = "https://www.prodigygame.com/Membership/";
 const sparkLink = "https://sparknonprofit.webflow.io/";
+const coinbaseLink = "https://www.coinbase.com/";
 
 export const experiences = [
+  {
+    logoImg: uwaterlooImg,
+    logoLink: courseSequenceLink,
+    heading: "3B Term",
+    date: getTermDates(TERMS.FALL, 2022),
+    description: [
+      "CS 456 Computer Networks",
+      "CS 346 Application Development",
+      "CO 487 Applied Cryptography",
+      "BET 210 Business Technology and Infrastructure",
+      "ENGL 108D Digital Lives",
+      "SCI 206 The Physics of How Things Work",
+    ],
+  },
+  {
+    logoImg: coinbaseImg,
+    logoLink: coinbaseLink,
+    heading: "Coinbase",
+    date: getTermDates(TERMS.SPRING, 2022),
+    description:
+      "Performance & Latency Team: Migrate endpoints from REST to GraphQL. Eliminate noise from GraphQL observability in Datadog. Implement schema ownership to reduce oncall time.",
+  },
   {
     logoImg: uwaterlooImg,
     logoLink: courseSequenceLink,
@@ -33,9 +57,10 @@ export const experiences = [
     description: [
       "CS 350 Operating Systems",
       "CS 341 Algorithms",
-      "CFM 301 Financial Data Analytics",
-      "ENGL 119 Communications in Math & CS",
-      "SPCOM 223 Public Speaking",
+      "CS 348 Introduction to Database Systems",
+      "ENGL 109 Introduction to Academic Writing",
+      "AHS 100 Foundations of a Healthy Lifestyle",
+      "CLAS 104 Classical Mythology",
     ],
   },
   {
@@ -43,7 +68,8 @@ export const experiences = [
     logoLink: prodigyLink,
     heading: "Prodigy Education",
     date: getTermDates(TERMS.FALL, 2021),
-    description: "Performed A/B tests and worked on self-serve upgrades for memberships",
+    description:
+      "Membership Team: Performed A/B tests and worked on self-serve upgrades for memberships",
   },
   {
     logoImg: sparkImg,
@@ -79,7 +105,7 @@ export const experiences = [
     heading: "Geotab",
     date: getTermDates(TERMS.WINTER, 2021),
     description:
-      "Developed map visualization software using Plotly and Mapbox to allow traffic engineers to analyze navigation routes. Implemented frontend caching to optimize the software's performance and reduce backend load by over 60%",
+      "Intelligent Transportation Team: Developed map visualization software using Plotly and Mapbox to allow traffic engineers to analyze navigation routes. Implemented frontend caching to optimize the software's performance and reduce backend load by over 60%",
   },
   {
     logoImg: techPlusImg,
