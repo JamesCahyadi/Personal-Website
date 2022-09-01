@@ -34,8 +34,8 @@ export const experiences = [
     date: getTermDates(TERMS.FALL, 2022),
     description: [
       "CS 456 Computer Networks",
-      "CS 346 Application Development",
-      "CO 487 Applied Cryptography",
+      "CS 454 Distributed Systems",
+      "CS 458 Computer Security and Privacy",
       "BET 210 Business Technology and Infrastructure",
       "ENGL 108D Digital Lives",
       "SCI 206 The Physics of How Things Work",
@@ -47,7 +47,7 @@ export const experiences = [
     heading: "Coinbase",
     date: getTermDates(TERMS.SPRING, 2022),
     description:
-      "Performance & Latency Team: Migrate endpoints from REST to GraphQL. Eliminate noise from GraphQL observability in Datadog. Implement schema ownership to reduce oncall time.",
+      "Data Layer Team: Built a GraphQL schema ownership project to alert teams about erroring resolvers. Migrated endpoints from REST to GraphQL. Eliminated noise from GraphQL observability in Datadog.",
   },
   {
     logoImg: uwaterlooImg,
