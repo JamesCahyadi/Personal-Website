@@ -30,6 +30,19 @@ export const experiences = [
   {
     logoImg: uwaterlooImg,
     logoLink: courseSequenceLink,
+    heading: "4A Term",
+    date: getTermDates(TERMS.WINTER, 2023),
+    description: [
+      "CS 451 Data-Intensive Distributed Computing",
+      "CS 448 Database Systems Implementation",
+      "CS 349 User Interfaces",
+      "BET 350 Customer Experience Design",
+      "ECON 101 Introduction to Microeconomics",
+    ],
+  },
+  {
+    logoImg: uwaterlooImg,
+    logoLink: courseSequenceLink,
     heading: "3B Term",
     date: getTermDates(TERMS.FALL, 2022),
     description: [
