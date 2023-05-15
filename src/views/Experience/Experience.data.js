@@ -7,6 +7,7 @@ import geotabImg from "assets/geotab.png";
 import hackTheNorthImg from "assets/htn.png";
 import prodigyImg from "assets/prodigy.png";
 import sparkImg from "assets/spark.jpeg";
+import splunkImg from "assets/splunk.png";
 import starterHacksImg from "assets/starterhacks.png";
 import techPlusImg from "assets/techPlus.jpeg";
 import uwaterlooImg from "assets/uwaterloo.png";
@@ -25,8 +26,16 @@ const deltaHacksLink = "https://www.deltahacks.com/";
 const prodigyLink = "https://www.prodigygame.com/Membership/";
 const sparkLink = "https://sparknonprofit.webflow.io/";
 const coinbaseLink = "https://www.coinbase.com/";
+const splunkLink = "https://www.splunk.com/";
 
 export const experiences = [
+  {
+    logoImg: splunkImg,
+    logoLink: splunkLink,
+    heading: "Splunk",
+    date: getTermDates(TERMS.SPRING, 2023),
+    description: "Misson Control Team",
+  },
   {
     logoImg: uwaterlooImg,
     logoLink: courseSequenceLink,
